@@ -1,0 +1,73 @@
+/*
+<input type="checkbox" id="chk_burger">
+ <label id="burger" for="chk_burger">
+<img src="https://s2.svgbox.net/hero-outline.svg?ic=menu"  width="32" hieght="32 "alt="">
+</label>
+ <nav class="menu">
+    <a href="#accueil">Accueil</a>
+    <a href="#inscription">Inscription</a>
+    <a href="#galerie">Galerie</a>
+ </nav>
+*/
+#burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #aaa;
+    width: 40px;
+    height: 2.3rem;
+    border-radius: 5px;
+    transform: rotate(0deg);
+    transition: transform .25s;
+    position: relative;
+}
+#burger img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+}
+
+
+#chk_burger{
+    display: none;
+}
+
+#burger img:nth-of-type(2){
+    display: none;
+}
+
+#chk_burger:checked ~#burger img:nth-of-type(2){
+    display: block;
+}
+
+#chk_burger:checked ~#burger img:nth-of-type(1){
+    display: none;
+}
+
+#chk_burger:checked ~ .menu{
+    transform: translateY(0);
+}
+#chk_burger:checked ~ #burger{
+    transform: rotate(90deg);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-250%);
+    transition: transform .25s;
+    position: absolute;
+    background-color: rgb(66, 112, 165);
+    width: 300px;
+    gap: 10px;
+    pad: 10px;
+    right: 0;
+    top:100%;
+    z-index: -1;
+}
+
+.menu a{
+    display: block;
+    color: #fff;
+}
