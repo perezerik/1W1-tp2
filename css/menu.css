@@ -9,6 +9,7 @@
     <a href="#galerie">Galerie</a>
  </nav>
 */
+
 #burger{
     display: flex;
     align-items: center;
@@ -28,7 +29,8 @@
     margin-left: auto;
 }
 
-
+/*si la ccase à côcher est coché alors on fait apparaitre l'image X et on fait disparaitre l'image burger 
+*/
 #chk_burger{
     display: none;
 }
