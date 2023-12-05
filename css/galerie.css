@@ -1,16 +1,42 @@
+/*<figure class="galerie">
+                <figure class="galerie__figure">
+                    <img class="galerie__img" src="images/interieur_gym.jpg" alt="">
+                    <figcaption class="galerie__caption"></figcaption>
+                </figure> */
+
 /*conteneur principal */
 .galerie{
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 /* conteneur d'Image*/
 .galerie__figure{
-
-}
-/* figcaption */
-.galerie__caption{
-
+    width: 200px;
+   /* height: 100px; */
+    border: 1px solid #aaa;
+    position: relative;
+    transition: all .5s;
+    transform: scale(1);
 }
 /* image*/
 .galerie__img{
-
+    width: 100%;
+    /*filter: grayscale(100%);*/
+    filter: blur(2px) grayscale(100%);
+    /*filter: hue-rotate(170deg);*/
+}
+.galerie__figure:hover{
+    transform: scale(2);
+    z-index: 10;
+}
+.galerie__figure:hover .galerie__img{
+    filter:none;
+}
+/* figcaption */
+.galerie__caption{
 }

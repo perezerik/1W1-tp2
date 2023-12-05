@@ -1,0 +1,44 @@
+/*<form action="" class="formulaire">
+                <label for="input__nom" class="etiquette__nom">Nom</label>
+                <input type="text" id="input__nom">
+                <label for="input__prenom" class="etiquette__prenom">Prénom</label>
+                <input type="text" id="input__prenom">
+                <label for="input__tel" class="etiquette__tel">Téléphone</label>
+                <input type="text" id="input__tel">
+                <fieldset class="form__chk">
+            </form> */
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulaire label{
+
+}
+
+.formulaire input[type="text"]{
+    width:400px;
+}
+
+.etiquette__nom{
+
+}
+
+.etiquette__prenom{
+
+}
+
+.etiquette__tel{
+
+}
+
+.form__chk{
+    display: flex;
+    gap: 5px;
+}
+
+.form__chk label{
+    padding-left: 25px;
+}
+
