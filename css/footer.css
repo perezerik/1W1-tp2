@@ -1,0 +1,43 @@
+/*     <div class="global" id="piedpage">
+        <footer>
+            <!--//////Premiere ligne-->
+            <div class="footer__conteneur__1">
+                <section class="footer_adresse"></section>
+                <section class="footer__lien"></section>
+                <section class="footer_text"></section>
+            </div>
+            <!--//////Deuxieme ligne-->
+            <div class="footer__conteneur__2">
+                <section class="image"></section>
+                <section class="footer__lien"></section>
+            </div>
+            <!--//////Troisieme ligne-->
+            <div class="footer__conteneur__3">
+                <section class="icone"></section>
+            </div>
+        </footer> */
+#piedpage > footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#piedpage > footer > div{
+    display: flex;
+    border: 1px solid #aaa;
+}
+
+#piedpage > footer > div > section{
+    border: 1px dotted #666;
+}
+
+.footer__adresse ul,
+.footer__lien ul{
+    list-style-type: none;
+}
+
+.footer__conteneur__3{
+    justify-content: center;
+    gap: 20px;
+}
+
