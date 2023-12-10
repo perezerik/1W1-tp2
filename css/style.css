@@ -45,29 +45,12 @@ html {
     flex-direction: column;
 }
 
-#entete{
-    background-color: rgb(220, 204, 102);
-    background-image: linear-gradient(90deg, #f00, #00f);
-    min-height: 1vh;
-    position: sticky;
-    top:0;
-    z-index: 10;
-}
-
-#entete header{
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    
-}
-
 #accueil{
-    background-color: aquamarine;
+    background-color: #A76B50;
 }
 
 #inscription{
-    background-color: rgb(234,255, 127);
+    background-color: #8C5638;
 }
 
 h1{
@@ -80,3 +63,14 @@ h2{
     margin-top:10vh;
 }
 
+#tableau{
+    background-color: #4A756E;
+}
+
+#articles{
+    background-color: #1B4B43;
+}
+
+#video{
+    background-color: #BED4C2;
+}

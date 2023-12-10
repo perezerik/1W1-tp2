@@ -16,6 +16,10 @@
                 <section class="icone"></section>
             </div>
         </footer> */
+#piedpage{
+    background-color: #ECE6D8;
+}
+
 #piedpage > footer{
     display: flex;
     flex-direction: column;
@@ -40,4 +44,7 @@
     justify-content: center;
     gap: 20px;
 }
-
+.footer__lien a{
+    display: block;
+    color: black;
+}
