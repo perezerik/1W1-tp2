@@ -75,3 +75,15 @@
     display: block;
     color: #fff;
 }
+/*Changement de couleur selon l'état du lien */
+
+.menu a:visited{
+    color: #293242;
+}
+
+.menu a:hover{
+    color: #B3A188;
+}
+.menu a:active{
+    color:#916848;
+}

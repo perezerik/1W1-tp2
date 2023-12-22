@@ -1,0 +1,23 @@
+/*  <div class="global" id="accueil">
+        <section>
+            <h2>TP2</h2>
+            <h3>Gym Vintage</h3>
+            <ul>
+                <li>Erik Gabriel Perez Angel</li>
+                <li>582-1W1 -Mise en page Web</li>
+                <li>Techniques d'intégration multimédia</li>
+                <li>Collège de Maisonneuve</li>
+                <li><a href="https://perezerik.github.io/1W1-tp2/">Ma page Github</a></li>
+                <li>Automne 2023</li>
+            </ul>
+        </section>
+    </div>
+*/
+#accueil section{
+    display: flex;
+    flex-direction: row;
+}
+
+#accueil a{
+    color: black;
+}

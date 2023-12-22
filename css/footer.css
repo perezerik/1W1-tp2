@@ -40,6 +40,10 @@
     list-style-type: none;
 }
 
+.footer__adresse a{
+    color:black;
+}
+
 .footer__conteneur__3{
     justify-content: center;
     gap: 20px;
