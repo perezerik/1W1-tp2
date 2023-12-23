@@ -13,11 +13,18 @@
         </section>
     </div>
 */
+/*Utilisation des flexbox pour centrer et mettre de l'espace entre le contenu */
 #accueil section{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
+/*Changer la couleur du lien flexbox */
 #accueil a{
     color: black;
+}
+
+/*Changer les bullet points de la liste */
+#accueil ul li::before{
+    content: "🏋️";
 }

@@ -19,6 +19,7 @@ html {
     /*on définit la direction de l'axe principal comme étant vertical */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     /*width: 100vw;*/
 }
 /* les conteneurs div autour de chaque section */
@@ -35,7 +36,7 @@ html {
 .global > header, 
 .global > footer {
     display: flex;
-    flex: 0 1 1000px;
+    flex: 0 1 1100px;
     /*border: 1px solid #aaa; */
     background-color: rgba(0,0,0,.1);
     background-color: rgba(255, 255, 255, .5);

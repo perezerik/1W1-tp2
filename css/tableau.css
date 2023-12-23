@@ -3,6 +3,13 @@ table{
     border-collapse: collapse;
 }
 
+/*Centrer tout au milieu */
+#tableau section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 td, th{
     border: 1px solid #444;
     font-size: 2rem;
@@ -11,4 +18,8 @@ td, th{
 
 td{
     text-align: center;
+}
+
+tfoot, thead{
+    font-weight: bold;
 }

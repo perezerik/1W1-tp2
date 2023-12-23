@@ -7,30 +7,23 @@
                 <input type="text" id="input__tel">
                 <fieldset class="form__chk">
             </form> */
+ 
+/*Centrer le text  */
+#inscription section{
+    text-align: center;
+}
+
+/*Centrer le formulaire au milieu */
 .formulaire{
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.formulaire label{
-
+    align-items: center;
+    
 }
 
 .formulaire input[type="text"]{
     width:400px;
-}
-
-.etiquette__nom{
-
-}
-
-.etiquette__prenom{
-
-}
-
-.etiquette__tel{
-
 }
 
 .form__chk{

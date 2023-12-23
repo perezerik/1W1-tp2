@@ -71,14 +71,24 @@
                 <label for="input__tel" class="etiquette__tel">Téléphone</label>
                 <input type="text" id="input__tel" placeholder="Votre numéro de téléphone">
                 <fieldset class="form__chk">
-                    <legend>Quel abonnement voulez-vous ?</legend>
-                    <label for="inp__prem" class="etiquette__prem">Premnium</label>
-                    <input type="checkbox" id="input__prem">
-                    <label for="inp__extra" class="etiquette__extra">Extra</label>
-                    <input type="checkbox" id="input__extra">
-                    <label for="inp__norm" class="etiquette__norm">Normal</label>
-                    <input type="checkbox" id="input__norm">
+                    <legend>Quel(s) est/sont votre/vos exercise(s) préféré(s) ?</legend>
+                    <label for="input__squat" class="etiquette__squat">Squat</label>
+                    <input type="checkbox" id="input__squat">
+                    <label for="input__bp" class="etiquette__bp">Bench Press</label>
+                    <input type="checkbox" id="input__bp">
+                    <label for="input__dl" class="etiquette__dl">Deadlift</label>
+                    <input type="checkbox" id="input__dl">
                 </fieldset>
+                <fieldset>
+                    <legend>Quel abonnement voulez-vous?</legend>
+                    <input type="radio" name="abonnement" id="premnium">
+                    <label for="premnium">Premnium</label>
+                    <input type="radio" name="abonnement" id="extra">
+                    <label for="extra">Extra</label>
+                    <input type="radio" name="abonnement" id="normal">
+                    <label for="normal">Normal</label>
+                </fieldset>
+               <input type="submit" value="Inscrivez-vous!">
             </form>
         </section>
     </div>
@@ -89,34 +99,56 @@
             <h3>Heures d'ouverture</h3>
             <p>Ceci sera notre horaire à moins que vous soyez avisé par message texte.</p>
             <table>
-                <tr>
-                    <th class="jours">LUN</th>
-                    <td>5H00 - 22H00</td>
-                </tr>
-                <tr>
-                    <th class="jours">MAR</th>
-                    <td>5H00 - 22H00</td>
-                </tr>
-                <tr>
-                    <th class="jours">MER</th>
-                    <td>5H00 - 22H00</td>
-                </tr>
-                <tr>
-                    <th class="jours">JEU</th>
-                    <td>5H00 - 22H00</td>
-                </tr>
-                <tr>
-                    <th class="jours">VEN</th>
-                    <td>24H/24H</td>
-                </tr>
-                <tr>
-                    <th class="jours">SAM</th>
-                    <td>24H/24H</td>
-                </tr>
-                <tr>
-                    <th class="jours">DIM</th>
-                    <td>24H/24H</td>
-                </tr>
+                <thead>
+                    <td colspan="4">NOTRE HORAIRE SPECTACULAIRE</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="jours">LUN</th>
+                        <td>5H00 - 22H00</td>
+                        <th>Jours Fériés</th>
+                        <th>Journées Ami Gratuit</th>
+                    </tr>
+                    <tr>
+                        <th class="jours">MAR</th>
+                        <td>5H00 - 22H00</td>
+                        <td>1 JANVIER</td>
+                        <td>2 JANVIER</td>
+                    </tr>
+                    <tr>
+                        <th class="jours">MER</th>
+                        <td>5H00 - 22H00</td>
+                        <td>LUNDI DE PÂQUES</td>
+                        <td>1 AVRIL</td>
+                    </tr>
+                    <tr>
+                        <th class="jours">JEU</th>
+                        <td>5H00 - 22H00</td>
+                        <td>1ER LUNDI DE SEPTEMBRE</td>
+                        <td>1 MAI</td>
+                    </tr>
+                    <tr>
+                        <th class="jours">VEN</th>
+                        <td>24H/24H</td>
+                        <td>2ÈME LUNDI D'OCTOBRE</td>
+                        <td>1 AOÛT</td>
+                    </tr>
+                    <tr>
+                        <th class="jours">SAM</th>
+                        <td>24H/24H</td>
+                        <td>24 DÉCEMBRE</td>
+                        <td>23 SEPTEMBRE</td>
+                    </tr>
+                    <tr>
+                        <th class="jours">DIM</th>
+                        <td>24H/24H</td>
+                        <td>25 DÉCEMBRE</td>
+                        <td>DERNIER JEUDI DE CHAQUE MOIS</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="4">Retenez bien cet horaire !</td>
+                </tfoot>
             </table>
         </section>
     </div>
