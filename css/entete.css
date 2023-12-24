@@ -1,3 +1,4 @@
+/*Style pour l'entête */
 #entete{
     
     background-image: linear-gradient(90deg, #CAB19B, #1B4B43);
@@ -6,7 +7,7 @@
     top:0;
     z-index: 10;
 }
-
+/* Espacer le contenu*/
 #entete header{
     justify-content: space-between;
     align-items: center;

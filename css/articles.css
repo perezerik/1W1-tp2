@@ -1,0 +1,29 @@
+/*<!--section article-->
+<div class="global" id="articles">
+    <section>
+        <h2>Notre équipement</h2>
+        <h3>Les plus aimés</h3>
+        <figure class="articles">
+            <img src="images/machineBasse.png" alt="machineGym">
+            <p>"Low Machine Row" de son nom anglais est l'une des machines préférées de nos membres. Elle permet de travailler le muscle le plus grand du dos: Le Grand Dorsal.</p>
+            <img src="images/smithMachine.jpg" alt="machineGym2">
+            <p>La "Smith Machine" est la seconde machine la plus aimée chez nous. Elle permet à nos membres d'avoir plus de stabilité lorsqu'ils veulent travailler leurs pectoraux. </p>
+        </figure>
+    </section>
+</div> */
+/* Permet de mettre sur 2 lignes les images*/
+.figure__articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+/*Avoir l'espace en bas désirée et la taille de chaque div*/
+.articles {
+    width: 48%; 
+    margin-bottom: 20px; 
+}
+/*Le width et le height de chaque image */
+.articles img {
+    width: 400px;
+    height: 400px;
+}

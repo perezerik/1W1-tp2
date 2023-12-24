@@ -55,7 +55,7 @@
 #chk_burger:checked ~ #burger{
     transform: rotate(90deg);
 }
-
+/* translation du menu et ses couleurs */
 .menu{
     display: flex;
     flex-direction: column;

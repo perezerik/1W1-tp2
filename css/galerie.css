@@ -23,13 +23,14 @@
     transition: all .5s;
     transform: scale(1);
 }
-/* image*/
+/* images et leurs effets*/
 .galerie__img{
     width: 100%;
     /*filter: grayscale(100%);*/
     filter: blur(2px) grayscale(100%);
     /*filter: hue-rotate(170deg);*/
 }
+/* Effets d'images*/
 .galerie__figure:hover{
     transform: scale(2);
     z-index: 10;
@@ -39,6 +40,7 @@
 }
 /* figcaption */
 .galerie__caption{
+    
 }
 
 #galerie{

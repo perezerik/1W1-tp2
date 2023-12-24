@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/entete.css">
     <link rel="stylesheet" href="css/accueil.css">
-    <link rel="stylesheet" href="css/galerie.css">
     <link rel="stylesheet" href="css/formulaire.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/articles.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,7 +36,7 @@
                 <a href="#tableau">Horaire</a>
                 <a href="#articles">Article</a>
                 <a href="#galerie">Galerie</a>
-                <a href="#video">Vidéo</a>
+                <a href="#video">Vidéos</a>
                 <a href="#piedpage">Pied de Page</a>
             </nav>
         </header>
@@ -154,14 +156,26 @@
     </div>
     <!--section article-->
     <div class="global" id="articles">
-        <section>
+        <section id="section__articles">
             <h2>Notre équipement</h2>
             <h3>Les plus aimés</h3>
-            <figure class="articles">
-                <img src="images/machineBasse.jpg" alt="machineGym">
-                <p>"Low Machine Row" de son nom anglais est l'une des machines préférées de nos membres. Elle permet de travailler le muscle le plus grand du dos: Le Grand Dorsal.</p>
-                <img src="images/smithMachine.jpg" alt="machineGym2">
-                <p>La "Smith Machine" est la seconde machine la plus aimée chez nous. Elle permet à nos membres d'avoir plus de stabilité lorsqu'ils veulent travailler leurs pectoraux. </p>
+            <figure class="figure__articles">
+                <div class="articles">
+                    <img src="images/machineBasse.png" alt="machineGym">
+                    <p>"Low Machine Row" de son nom anglais est l'une des machines préférées de nos membres. Elle permet de travailler le muscle le plus grand du dos: Le Grand Dorsal.</p>
+                </div>
+                <div class="articles">
+                    <img src="images/smithMachine.jpg" alt="machineGym2">
+                    <p>La "Smith Machine" est la seconde machine la plus aimée chez nous. Elle permet à nos membres d'avoir plus de stabilité lorsqu'ils veulent travailler leurs pectoraux. </p>
+                </div>
+                <div class="articles">
+                    <img src="images/machineMollet.jpg" alt="machineGym3">
+                    <p>Cette machine pour travailler les mollets debout est la plus appréciée de nos membres lorsqu'il vient à travailler cette partie du corps. Pas beaucoup de gymnasses l'ont.</p>
+                </div>
+                <div class="articles">
+                    <img src="images/machineBiceps.png" alt="machineGym4">
+                    <p>Cette 4ème et dernière machine est la favorite de nos membres pour bien travailler les biceps. Nous avons reçus plusieurs bonnes impressions sur celle-ci, donc à l'été prochain, nous en receverons 2 autres.</p>
+                </div>
             </figure>
         </section>
     </div>
@@ -185,26 +199,33 @@
                     <figcaption class="galerie__caption">Zone de Squat</figcaption>
                 </figure>
                 <figure class="galerie__figure">
-                    <img class="galerie__img" src="images/arnold.jpg" alt="">
-                    <figcaption class="galerie__caption">Arnold Schwarzenegger</figcaption>
-                </figure>
-                <figure class="galerie__figure">
                     <img class="galerie__img" src="images/ronnie_coleman.jpg" alt="">
                     <figcaption class="galerie__caption">Ronnie Coleman</figcaption>
                 </figure>
                 <figure class="galerie__figure">
+                    <img class="galerie__img" src="images/arnold.jpg" alt="">
+                    <figcaption class="galerie__caption">Arnold Schwarzenegger</figcaption>
+                </figure>
+                <figure class="galerie__figure">
                     <img class="galerie__img"src="images/mike_mentzer.jpg" alt="">
-                    <figcaption>Mike Mentzer</figcaption>
+                    <figcaption class="galerie__caption">Mike Mentzer</figcaption>
                 </figure>
             </figure>
         </section>
     </div>
     <!--section vidéo-->
     <div class="global" id="video">
-        <section>
-            <h2>Vidéo</h2>
+        <section class="section__video">
+            <h2>Vidéos</h2>
             <h3>Record du Gym</h3>
-            <p>Notre record est détenu par Arnold Schwarzenegger</p>
+            <p>Notre plus grosse star est Arnold Schwarzenegger</p>
+            <a href="https://www.youtube.com/watch?v=YffDvPm6-9Y">Lien Youtube</a>
+            <p>Notre record de squat est détenu par Ronnie Coleman</p>
+            <a href="https://www.youtube.com/watch?v=ddCEZHpVqqc">Lien Youtube</a>
+            <h3>Mention honorable</h3>
+            <p>Un des meilleurs physique sans s'entraîner à une haute fréquence</p>
+            <a href="https://www.youtube.com/watch?v=0EELqN7wt9o">Mike Mentzer</a>
+            
         </section>
     </div>
     <!--section pied de page-->
@@ -223,7 +244,7 @@
                     </ul>
                 </section>
                 <section class="footer__lien">
-                    <h4>Lien</h4>
+                    <h4>Liens</h4>
                     <ul>
                         <li><a href="#accueil">Accueil</a></li>
                         <li><a href="#inscription">Inscrivez-vous!</a></li>
@@ -242,6 +263,11 @@
                         
 
                     </form>
+                </section>
+                <section class="footer_description__avis">
+                    <h4>Description du département</h4>
+                    <p>Le département est prêt à répondre à toute pleinte du consommateur. Veuillez-nous contacter au besoin.</p>
+                    <p>Avis de confidentialité | Privacy Notice</p>
                 </section>
             </div>
             <!--//////Deuxieme ligne-->

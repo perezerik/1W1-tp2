@@ -1,0 +1,10 @@
+/*Centrer les éléments et les séparer*/
+.section__video{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*Changer couleur des liens */
+.section__video a{
+    color: black;
+}

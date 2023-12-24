@@ -34,7 +34,7 @@
 #piedpage > footer > div > section{
     border: 1px dotted #666;
 }
-
+/*Enelever les bullet points */
 .footer__adresse ul,
 .footer__lien ul{
     list-style-type: none;
@@ -51,4 +51,10 @@
 .footer__lien a{
     display: block;
     color: black;
+}
+.footer_description__avis{
+    width: 100%;
+}
+.footer_description__avis > p{
+    margin-bottom: 60px;
 }
